@@ -19,20 +19,31 @@
 ---
 # *Project Time line.*
 
+### ◆ 2018-09-10(Mon)
+> #### 주제 : 웹툰 관련 데이터 EDA 및 Data Featuring
+>  (장소 : 스타벅스 학동역점)
+>  - EDA (각종 시각화 및 피쳐의 영향도 분석)
+>  - Feature Engineering
+>  - Y값 선정 (추천수or댓글수)
+>  - 기초모델(LightGBM gbdt) 적용 및 importance 분석
+>  - 장르분석법 연구(KNN, 카테고리컬PCA 등)
+
 ### ◆ 2018-09-06(Thr)
 > #### 주제 : 웹툰 관련 데이터 EDA 및 Data Featuring
 >  (장소 : 스타벅스 학동역점)
 >  - EDA (각종 시각화 및 피쳐의 영향도 분석)
->  - 댓글 갯수 데이터 크롤링 완료 후 모델 피쳐링에 적용
+>    -  D사 웹툰 : 유료웹툰과 무료웹툰의 시간별, 회차별 추천수, 댓글수 분석 및 시각화
+>  - N사 웹툰 : 댓글 크롤링 및 DB정리
 >  - Feature Engineering
->  - 기초모델(LightGBM gbdt) 적용 및 importance 분석
 >  - 텍스트 Data 처리방법 모색 및 분석 전략 수립
+>  - 다음 모임까지 각자 할것
+>    - D사 EDA 및 Feature Engeneering
+>    - N사 댓글갯수 데이터 수집 및 EDA
 
 ### ◆ 2018-09-05(Wed)
 > #### 주제 : 웹툰 관련 데이터 EDA 및 Data Featuring
 >  (장소 : 스타벅스 학동역점)
 >  - 크롤링 Data --> AWS RDS로 이전, 쿼리로 필요한 데이터 그때그때 불러오는 방식으로 분석
->  - EDA (각종 시각화 및 피쳐의 영향도 분석 등)
 >  - Feature Engineering
 >  - 다음 모임까지 각자 할것
 >    - 수집데이터 중 댓글 갯수 추가
