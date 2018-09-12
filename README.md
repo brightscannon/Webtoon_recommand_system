@@ -24,11 +24,11 @@
 # --**현재 진행중인 부분**--
 
 ## 1. # EDA결론 및 모델링 사전정의 (상세설명은 aum EDA문서 참조)
-> A. 장르 --> classification Y --> proba로 판단하기?
-> B. 추천수 --> regression Y --> 각 웹툰을 모두 regression 진행하여 가장 좋은 모델 선정 후 이를 장르 classification에 반영
-> C. 댓글반응수 --> regression Y --> 시도할 필요성...
-> D. 시간/회차 --> 독립변수 X --> 시계열?? 
-> E. 썸네일이미지 --> 작가&장르 neuralnet --> 시도해보아야함
+> - A. 장르 --> classification Y --> proba로 판단하기?
+> - B. 추천수 --> regression Y --> 각 웹툰을 모두 regression 진행하여 가장 좋은 모델 선정 후 이를 장르 classification에 반영
+> - C. 댓글반응수 --> regression Y --> 시도할 필요성...
+> - D. 시간/회차 --> 독립변수 X --> 시계열?? 
+> - E. 썸네일이미지 --> 작가&장르 neuralnet --> 시도해보아야함
 
 ## 2. 추천시스템은 어떻게 만들 것인가?
 > #### - 2018-09-12 논의
