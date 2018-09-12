@@ -23,7 +23,8 @@
 ---
 # --**현재 진행중인 부분**--
 
-## 1. # EDA결론 및 모델링 사전정의 (상세설명은 aum EDA문서 참조)
+## 1. # EDA결론 및 모델링 사전정의
+> - (상세설명은 Daum EDA문서 참조)
 > - A. 장르 --> classification Y --> proba로 판단하기?
 > - B. 추천수 --> regression Y --> 각 웹툰을 모두 regression 진행하여 가장 좋은 모델 선정 후 이를 장르 classification에 반영
 > - C. 댓글반응수 --> regression Y --> 시도할 필요성...
